@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    string[] userPhrases = new string[]
+    {
+      "Did you try to put it off and on again?",
+      "Sure, I can help you reset your password. Could you please verify your username and answer your security questions?",
+      "Of course, I can guide you through installing the software. Let me walk you through the process step by step.",
+      "I understand you're having trouble connecting to the network. Let's troubleshoot this together. Could you please confirm if your device is connected to the right network?",
+      "I'm sorry to hear about your hardware issue. Let's diagnose the problem. Have you tried restarting your device?",
+      "No problem, I can assist you in setting up your email. Could you please provide the email client you're using?",
+      "I see you're experiencing issues with the printer. Let's check if it's properly connected and has enough paper and toner.",
+      "I understand you're receiving an error message. Could you please provide the exact wording of the error, and I'll help you troubleshoot it?",
+      "Thank you for bringing this security concern to our attention. Let's investigate this further. Have you clicked on any suspicious links or downloaded any files recently?",
+      "I'm here to assist you with any technical issues you're facing. Please describe the problem you're encountering, and I'll do my best to help."
+    };
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+<div>
+    <smart-textarea user-role="An IT servicedesk employee handling IT related problems" user-phrases="userPhrases" rows="10" cols="80"/>
+</div>
+
+
+
+
+
+
